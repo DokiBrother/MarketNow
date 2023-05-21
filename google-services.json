@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "141646838647",
+    "project_id": "marketnow-63a1e",
+    "storage_bucket": "marketnow-63a1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:141646838647:android:65ff97336dd72bb78d3f72",
+        "android_client_info": {
+          "package_name": "com.marketnow.MarketNow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "141646838647-mbrrkptb7q7vsv5jadqcg33ahtqrfefb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marketnow.MarketNow",
+            "certificate_hash": "bde6a1d62301cf8c3c1f4f0ec5354c2cc1ea05ff"
+          }
+        },
+        {
+          "client_id": "141646838647-uvjv0cn4opp0e5jhd74ch87rs0tre21a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtOcdVTjb3bpB-OH-RB2cARa_1882nCMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "141646838647-7us4qn0lo1cnsgru93me2kp0lusqmh5r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

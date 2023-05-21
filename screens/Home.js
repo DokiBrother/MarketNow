@@ -99,7 +99,7 @@ const Home = () => {
                     source={item.img}
                     resizeMode="cover"
                     style={{
-                        width: SIZES.width * 0.28,
+                        width: SIZES.width * 0.4,
                         height: '82%',
                         borderRadius: 15
                     }}
@@ -114,7 +114,9 @@ const Home = () => {
         <View style={styles.container}>
             
             {/* Banner */}
-            <View style={{ flex: 1, marginTop: SIZES.base, paddingHorizontal: SIZES.padding, }}>
+            <TouchableOpacity style={{ flex: 1, marginTop: SIZES.base, paddingHorizontal: SIZES.padding, }}
+                onPress={() => navigation.navigate('DestinationDetail')}
+            >
                 <Image
                     source={images.homeBanner}
                     resizeMode="cover"
@@ -124,59 +126,59 @@ const Home = () => {
                         borderRadius: 15,
                     }}
                 />
-            </View>
+            </TouchableOpacity>
 
             {/* Options */}
             <View style={{ flex: 1, justifyContent: 'center' }}>
                 <View style={{ flexDirection: 'row', marginTop: SIZES.padding, paddingHorizontal: SIZES.base }}>
                     <OptionItem
                         icon={icons.eat}
-                        bgColor= '#4361ee'
+                        bgColor= '#55a630'
                         label="Food"
-                        onPress={() => { console.log("Food") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.drinks}
-                        bgColor= '#4361ee'
+                        bgColor= '#3a86ff'
                         label="Drinks"
-                        onPress={() => { console.log("Drinks") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.fashions}
-                        bgColor= '#4361ee'
+                        bgColor= '#9d4edd'
                         label="Fashions"
-                        onPress={() => { console.log("Fashions") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.event}
-                        bgColor= '#4361ee'
+                        bgColor= '#ffa200'
                         label="Event"
-                        onPress={() => { console.log("Event") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                 </View>
 
                 <View style={{ flexDirection: 'row', marginTop: SIZES.padding, paddingHorizontal: SIZES.base }}>
                     <OptionItem
                         icon={icons.voucher}
-                        bgColor='#4361ee'
+                        bgColor='#ff477e'
                         label="Voucher"
-                        onPress={() => { console.log("Voucher") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.furniture}
-                        bgColor='#4361ee'
+                        bgColor='#dda15e'
                         label="Furnitures"
-                        onPress={() => { console.log("Furnitures") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.store}
-                        bgColor='#4361ee'
+                        bgColor='#55a630'
                         label="Glossaries"
-                        onPress={() => { console.log("Glossaries") }}
+                        onPress={() => navigation.navigate('DestinationDetail')}
                     />
                     <OptionItem
                         icon={icons.compass}
-                        bgColor='#4361ee'
+                        bgColor='#ff477e'
                         label="Explore"
                         onPress={handleSignOut}
                     />

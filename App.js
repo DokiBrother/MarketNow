@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import 'expo-dev-client';
 import LoginScreen from './screens/LoginScreen';
 import Home from './screens/Home';
+import DestinationDetail from './screens/DestinationDetail';
 
 const Stack = createNativeStackNavigator();
 
@@ -14,6 +15,7 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen options={{headerShown: false}} name='Login' component={LoginScreen}/>
         <Stack.Screen options={{headerShown: false}} name="Home" component={Home}/>
+        <Stack.Screen options={{headerShown: false}} name="DestinationDetail" component={DestinationDetail}/>
         {/* <Stack.Screen options={{headerShown: false}} name="Home" component={HomeScreen}/> */}
       </Stack.Navigator>
     </NavigationContainer>

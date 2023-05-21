@@ -5,6 +5,7 @@ import { auth } from '../firebase'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 const LoginScreen = () => {
+  
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
 
@@ -45,6 +46,7 @@ const LoginScreen = () => {
       .sendPasswordResetEmail(email)
       .then(Alert.alert('A reset link has been sent. Please check your email!'))
   }
+  
 
   
 
